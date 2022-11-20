@@ -1,0 +1,9 @@
+/* Footer */
+.footer {}
+.link {}
+.logo {}
+
+/* TEMP */
+.logo img {
+    filter: invert(1);
+}
