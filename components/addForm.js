@@ -1,11 +1,11 @@
-export default function SongForm() {
+export default function AddForm() {
 
     const handleSubmit = async (event) => {
         event.preventDefault();
         const form = new FormData(event.target);
         const formData = Object.fromEntries(form.entries());
 
-        const res = await fetch('/api/songs', {
+        const res = await fetch('/api/addSong', {
             body: JSON.stringify(formData),
             headers: {
                 'Content-Type': 'application/json',

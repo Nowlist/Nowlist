@@ -4,13 +4,13 @@ import Image from 'next/image'
 
 import styles from '../styles/add.module.css'
 
-import SongForm from '../lib/SongForm'
+import AddForm from '../components/addForm'
 
 function Add() {
     return (
         <div className={styles.container}>
 
-            <SongForm />
+            <AddForm />
 
             <Link href="/">
                 <button className={styles.backButton}>Back</button>
